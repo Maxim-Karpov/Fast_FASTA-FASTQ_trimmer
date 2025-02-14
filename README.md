@@ -1,5 +1,5 @@
 # Overview
-Quickly trim your FASTA/FASTQ sequences a set number of basepairs from left, right, or both ends of the sequence. Useful for debarcoding your sequences with set barcode length.
+Quickly trim your FASTA/FASTQ sequences a set number of basepairs from left, right, or both ends of the sequence. Useful for debarcoding your sequences with a set barcode length.
 
 ## Manual
 ```
