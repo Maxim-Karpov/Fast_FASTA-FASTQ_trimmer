@@ -9,6 +9,6 @@ Input requires all 4 arguments:
   -tl   trim length - number of basepairs to trim from both, left, or right sides of the sequences
   -ft   file type (fasta|fastq)
   ```
-
+The output is a file named "trimmed_output.fast(a|q)" in the same directory as the binary.
 ## Notes
 - For FASTQ files, the software won't work if the sequences are shorter than 60bp or if the sequence names are longer than 60 characters. You can manually edit this quantity and rebuild the binary with g++ if required.
