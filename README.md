@@ -12,4 +12,3 @@ Input requires all 4 arguments:
 The output is a file named "trimmed_output.fast(a|q)" in the same directory as the binary.
 ## Notes
 - For FASTQ files, the software won't work if the sequences are shorter than 60bp or if the sequence names are longer than 60 characters. You can manually edit this quantity and rebuild the binary with g++ if required.
-- Move the binary to /usr/bin/ to access the program globally through the terminal.
